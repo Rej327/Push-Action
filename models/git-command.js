@@ -10,28 +10,28 @@ class GitCommand {
     }
 
     //Command: git status
-    status() {
-        // const newChanges = this.working_directory.new_changes;
-        // console.log('newChanges:', newChanges);
-        // const numChanges = Object.keys(newChanges).length;
+    // status() {
+    //     const newChanges = this.working_directory.new_changes;
+    //     console.log('newChanges:', newChanges);
+    //     const numChanges = Object.keys(newChanges).length;
     
-        // if (numChanges === 0) {
-        //     return 'You have 0 change/s.\n';
-        // } else {
-        //     let output = `You have ${numChanges} change/s.\n`;
-        //     const sortedPaths = Object.keys(newChanges);
-        //     for (let i = 0; i < sortedPaths.length; i++) {
-        //         const path = sortedPaths[i];
-        //         const { location, name } = newChanges[path];
-        //         output += `${location}/${name}`;
-        //         if (i < sortedPaths.length - 1) {
-        //             output += '\n';
-        //         }
-        //     }
-        //     return output;
+    //     if (numChanges === 0) {
+    //         return 'You have 0 change/s.\n';
+    //     } else {
+    //         let output = `You have ${numChanges} change/s.\n`;
+    //         const sortedPaths = Object.keys(newChanges);
+    //         for (let i = 0; i < sortedPaths.length; i++) {
+    //             const path = sortedPaths[i];
+    //             const { location, name } = newChanges[path];
+    //             output += `${location}/${name}`;
+    //             if (i < sortedPaths.length - 1) {
+    //                 output += '\n';
+    //             }
+    //         }
+    //         return output;
             
-        // }
-    }
+    //     }
+    // }
     
     
 
