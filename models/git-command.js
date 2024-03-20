@@ -10,7 +10,7 @@ class GitCommand {
     }
 
     //Command: git status
-    status() {
+    // status() {
     //     const newChanges = this.working_directory.new_changes;
     //     console.log('newChanges:', newChanges);
     //     const numChanges = Object.keys(newChanges).length;
@@ -31,7 +31,7 @@ class GitCommand {
     //         return output;
             
     //     }
-    }
+    // }
     
     
 
