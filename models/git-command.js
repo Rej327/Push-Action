@@ -14,6 +14,9 @@ class GitCommand {
         const newChanges = this.working_directory.new_changes;
         console.log('newChanges:', newChanges);
         const numChanges = Object.keys(newChanges).length;
+    //     const newChanges = this.working_directory.new_changes;
+    //     console.log('newChanges:', newChanges);
+    //     const numChanges = Object.keys(newChanges).length;
     
         if (numChanges === 0) {
             return 'You have 0 change/s.\n';
